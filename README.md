@@ -1,6 +1,7 @@
 # pump Pump.fun contract
 This is the Rust/Anchor Smart contract for building pump project forking from Pump.fun.
 The trigger to move to raydium and meteora is not marketcap, just period.
+if you need my help, plz contact me https://t.me/Ee1030109, 
 
 # Contracts
 
