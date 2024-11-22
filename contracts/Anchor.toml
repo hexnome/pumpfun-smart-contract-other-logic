@@ -1,0 +1,24 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.devnet]
+pump = "G7B2ubcp4XNRkcQsUX5NApQN9Jv14DLcdm2H7Y32gMmG"
+
+[programs.localnet]
+pump = "DmK2k1vXApWgkP1yhcKhnjqkVD79x8VHFVRMqNZzK4WH"
+
+[programs.mainnet]
+pump = "DmK2k1vXApWgkP1yhcKhnjqkVD79x8VHFVRMqNZzK4WH"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "./keypair.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
